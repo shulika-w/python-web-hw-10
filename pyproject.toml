@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-web-hw-10"
+version = "0.1.0"
+description = ""
+authors = ["shulika-w <shulika.w@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.1"
+psycopg2-binary = "^2.9.9"
+pymongo = "^4.9.1"
+django-hybrid-attributes = "^0.1.0"
+pillow = "^10.4.0"
+mongoengine = "^0.29.1"
+django-environ = "^0.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
